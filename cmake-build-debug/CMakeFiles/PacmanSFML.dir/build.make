@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan"
+CMAKE_SOURCE_DIR = "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PacmanSFML.dir/depend.make
@@ -68,305 +68,50 @@ include CMakeFiles/PacmanSFML.dir/flags.make
 CMakeFiles/PacmanSFML.dir/src/main.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
 CMakeFiles/PacmanSFML.dir/src/main.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
 CMakeFiles/PacmanSFML.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PacmanSFML.dir/src/main.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\main.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PacmanSFML.dir/src/main.cpp.obj"
+	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\main.cpp.obj -c "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\src\main.cpp"
 
 CMakeFiles/PacmanSFML.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/main.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\main.cpp" > CMakeFiles\PacmanSFML.dir\src\main.cpp.i
+	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\src\main.cpp" > CMakeFiles\PacmanSFML.dir\src\main.cpp.i
 
 CMakeFiles/PacmanSFML.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/main.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\main.cpp" -o CMakeFiles\PacmanSFML.dir\src\main.cpp.s
+	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\src\main.cpp" -o CMakeFiles\PacmanSFML.dir\src\main.cpp.s
 
 CMakeFiles/PacmanSFML.dir/src/Game.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
 CMakeFiles/PacmanSFML.dir/src/Game.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
 CMakeFiles/PacmanSFML.dir/src/Game.cpp.obj: ../src/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PacmanSFML.dir/src/Game.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\Game.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Game.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PacmanSFML.dir/src/Game.cpp.obj"
+	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\Game.cpp.obj -c "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\src\Game.cpp"
 
 CMakeFiles/PacmanSFML.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/Game.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Game.cpp" > CMakeFiles\PacmanSFML.dir\src\Game.cpp.i
+	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\src\Game.cpp" > CMakeFiles\PacmanSFML.dir\src\Game.cpp.i
 
 CMakeFiles/PacmanSFML.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/Game.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Game.cpp" -o CMakeFiles\PacmanSFML.dir\src\Game.cpp.s
+	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\src\Game.cpp" -o CMakeFiles\PacmanSFML.dir\src\Game.cpp.s
 
 CMakeFiles/PacmanSFML.dir/src/ResourceHandler.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
 CMakeFiles/PacmanSFML.dir/src/ResourceHandler.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
 CMakeFiles/PacmanSFML.dir/src/ResourceHandler.cpp.obj: ../src/ResourceHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PacmanSFML.dir/src/ResourceHandler.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\ResourceHandler.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\ResourceHandler.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PacmanSFML.dir/src/ResourceHandler.cpp.obj"
+	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\ResourceHandler.cpp.obj -c "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\src\ResourceHandler.cpp"
 
 CMakeFiles/PacmanSFML.dir/src/ResourceHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/ResourceHandler.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\ResourceHandler.cpp" > CMakeFiles\PacmanSFML.dir\src\ResourceHandler.cpp.i
+	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\src\ResourceHandler.cpp" > CMakeFiles\PacmanSFML.dir\src\ResourceHandler.cpp.i
 
 CMakeFiles/PacmanSFML.dir/src/ResourceHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/ResourceHandler.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\ResourceHandler.cpp" -o CMakeFiles\PacmanSFML.dir\src\ResourceHandler.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/FreeFuncs.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/FreeFuncs.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/FreeFuncs.cpp.obj: ../src/tmxsrc/FreeFuncs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PacmanSFML.dir/src/tmxsrc/FreeFuncs.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\FreeFuncs.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\FreeFuncs.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/FreeFuncs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/tmxsrc/FreeFuncs.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\FreeFuncs.cpp" > CMakeFiles\PacmanSFML.dir\src\tmxsrc\FreeFuncs.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/FreeFuncs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/tmxsrc/FreeFuncs.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\FreeFuncs.cpp" -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\FreeFuncs.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ImageLayer.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ImageLayer.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ImageLayer.cpp.obj: ../src/tmxsrc/ImageLayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PacmanSFML.dir/src/tmxsrc/ImageLayer.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\ImageLayer.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\ImageLayer.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ImageLayer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/tmxsrc/ImageLayer.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\ImageLayer.cpp" > CMakeFiles\PacmanSFML.dir\src\tmxsrc\ImageLayer.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ImageLayer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/tmxsrc/ImageLayer.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\ImageLayer.cpp" -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\ImageLayer.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/LayerGroup.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/LayerGroup.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/LayerGroup.cpp.obj: ../src/tmxsrc/LayerGroup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PacmanSFML.dir/src/tmxsrc/LayerGroup.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\LayerGroup.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\LayerGroup.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/LayerGroup.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/tmxsrc/LayerGroup.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\LayerGroup.cpp" > CMakeFiles\PacmanSFML.dir\src\tmxsrc\LayerGroup.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/LayerGroup.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/tmxsrc/LayerGroup.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\LayerGroup.cpp" -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\LayerGroup.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Map.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Map.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Map.cpp.obj: ../src/tmxsrc/Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PacmanSFML.dir/src/tmxsrc/Map.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\Map.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\Map.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Map.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/tmxsrc/Map.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\Map.cpp" > CMakeFiles\PacmanSFML.dir\src\tmxsrc\Map.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Map.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/tmxsrc/Map.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\Map.cpp" -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\Map.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/miniz.c.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/miniz.c.obj: CMakeFiles/PacmanSFML.dir/includes_C.rsp
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/miniz.c.obj: ../src/tmxsrc/miniz.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/PacmanSFML.dir/src/tmxsrc/miniz.c.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\miniz.c.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\miniz.c"
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/miniz.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PacmanSFML.dir/src/tmxsrc/miniz.c.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\miniz.c" > CMakeFiles\PacmanSFML.dir\src\tmxsrc\miniz.c.i
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/miniz.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PacmanSFML.dir/src/tmxsrc/miniz.c.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\miniz.c" -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\miniz.c.s
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Object.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Object.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Object.cpp.obj: ../src/tmxsrc/Object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PacmanSFML.dir/src/tmxsrc/Object.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\Object.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\Object.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Object.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/tmxsrc/Object.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\Object.cpp" > CMakeFiles\PacmanSFML.dir\src\tmxsrc\Object.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Object.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/tmxsrc/Object.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\Object.cpp" -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\Object.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectGroup.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectGroup.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectGroup.cpp.obj: ../src/tmxsrc/ObjectGroup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectGroup.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\ObjectGroup.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\ObjectGroup.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectGroup.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectGroup.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\ObjectGroup.cpp" > CMakeFiles\PacmanSFML.dir\src\tmxsrc\ObjectGroup.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectGroup.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectGroup.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\ObjectGroup.cpp" -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\ObjectGroup.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectTypes.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectTypes.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectTypes.cpp.obj: ../src/tmxsrc/ObjectTypes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectTypes.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\ObjectTypes.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\ObjectTypes.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectTypes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectTypes.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\ObjectTypes.cpp" > CMakeFiles\PacmanSFML.dir\src\tmxsrc\ObjectTypes.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectTypes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectTypes.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\ObjectTypes.cpp" -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\ObjectTypes.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Property.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Property.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Property.cpp.obj: ../src/tmxsrc/Property.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PacmanSFML.dir/src/tmxsrc/Property.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\Property.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\Property.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Property.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/tmxsrc/Property.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\Property.cpp" > CMakeFiles\PacmanSFML.dir\src\tmxsrc\Property.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Property.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/tmxsrc/Property.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\Property.cpp" -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\Property.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/TileLayer.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/TileLayer.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/TileLayer.cpp.obj: ../src/tmxsrc/TileLayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/PacmanSFML.dir/src/tmxsrc/TileLayer.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\TileLayer.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\TileLayer.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/TileLayer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/tmxsrc/TileLayer.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\TileLayer.cpp" > CMakeFiles\PacmanSFML.dir\src\tmxsrc\TileLayer.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/TileLayer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/tmxsrc/TileLayer.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\TileLayer.cpp" -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\TileLayer.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Tileset.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Tileset.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Tileset.cpp.obj: ../src/tmxsrc/Tileset.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/PacmanSFML.dir/src/tmxsrc/Tileset.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\Tileset.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\Tileset.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Tileset.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/tmxsrc/Tileset.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\Tileset.cpp" > CMakeFiles\PacmanSFML.dir\src\tmxsrc\Tileset.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/Tileset.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/tmxsrc/Tileset.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\Tileset.cpp" -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\Tileset.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/detail/pugixml.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/detail/pugixml.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/detail/pugixml.cpp.obj: ../src/tmxsrc/detail/pugixml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/PacmanSFML.dir/src/tmxsrc/detail/pugixml.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\detail\pugixml.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\detail\pugixml.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/detail/pugixml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/tmxsrc/detail/pugixml.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\detail\pugixml.cpp" > CMakeFiles\PacmanSFML.dir\src\tmxsrc\detail\pugixml.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/tmxsrc/detail/pugixml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/tmxsrc/detail/pugixml.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\tmxsrc\detail\pugixml.cpp" -o CMakeFiles\PacmanSFML.dir\src\tmxsrc\detail\pugixml.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/Player.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/Player.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/Player.cpp.obj: ../src/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/PacmanSFML.dir/src/Player.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\Player.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Player.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/Player.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Player.cpp" > CMakeFiles\PacmanSFML.dir\src\Player.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/Player.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Player.cpp" -o CMakeFiles\PacmanSFML.dir\src\Player.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/Enemy.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/Enemy.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/Enemy.cpp.obj: ../src/Enemy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/PacmanSFML.dir/src/Enemy.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\Enemy.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Enemy.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/Enemy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/Enemy.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Enemy.cpp" > CMakeFiles\PacmanSFML.dir\src\Enemy.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/Enemy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/Enemy.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Enemy.cpp" -o CMakeFiles\PacmanSFML.dir\src\Enemy.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/Coin.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/Coin.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/Coin.cpp.obj: ../src/Coin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/PacmanSFML.dir/src/Coin.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\Coin.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Coin.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/Coin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/Coin.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Coin.cpp" > CMakeFiles\PacmanSFML.dir\src\Coin.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/Coin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/Coin.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Coin.cpp" -o CMakeFiles\PacmanSFML.dir\src\Coin.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/Menus/MainMenu.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/Menus/MainMenu.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/Menus/MainMenu.cpp.obj: ../src/Menus/MainMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/PacmanSFML.dir/src/Menus/MainMenu.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\Menus\MainMenu.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Menus\MainMenu.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/Menus/MainMenu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/Menus/MainMenu.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Menus\MainMenu.cpp" > CMakeFiles\PacmanSFML.dir\src\Menus\MainMenu.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/Menus/MainMenu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/Menus/MainMenu.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Menus\MainMenu.cpp" -o CMakeFiles\PacmanSFML.dir\src\Menus\MainMenu.cpp.s
-
-CMakeFiles/PacmanSFML.dir/src/Menus/GameOverMenu.cpp.obj: CMakeFiles/PacmanSFML.dir/flags.make
-CMakeFiles/PacmanSFML.dir/src/Menus/GameOverMenu.cpp.obj: CMakeFiles/PacmanSFML.dir/includes_CXX.rsp
-CMakeFiles/PacmanSFML.dir/src/Menus/GameOverMenu.cpp.obj: ../src/Menus/GameOverMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/PacmanSFML.dir/src/Menus/GameOverMenu.cpp.obj"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacmanSFML.dir\src\Menus\GameOverMenu.cpp.obj -c "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Menus\GameOverMenu.cpp"
-
-CMakeFiles/PacmanSFML.dir/src/Menus/GameOverMenu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacmanSFML.dir/src/Menus/GameOverMenu.cpp.i"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Menus\GameOverMenu.cpp" > CMakeFiles\PacmanSFML.dir\src\Menus\GameOverMenu.cpp.i
-
-CMakeFiles/PacmanSFML.dir/src/Menus/GameOverMenu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacmanSFML.dir/src/Menus/GameOverMenu.cpp.s"
-	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\src\Menus\GameOverMenu.cpp" -o CMakeFiles\PacmanSFML.dir\src\Menus\GameOverMenu.cpp.s
+	C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\src\ResourceHandler.cpp" -o CMakeFiles\PacmanSFML.dir\src\ResourceHandler.cpp.s
 
 # Object files for target PacmanSFML
 PacmanSFML_OBJECTS = \
 "CMakeFiles/PacmanSFML.dir/src/main.cpp.obj" \
 "CMakeFiles/PacmanSFML.dir/src/Game.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/ResourceHandler.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/tmxsrc/FreeFuncs.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/tmxsrc/ImageLayer.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/tmxsrc/LayerGroup.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/tmxsrc/Map.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/tmxsrc/miniz.c.obj" \
-"CMakeFiles/PacmanSFML.dir/src/tmxsrc/Object.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectGroup.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectTypes.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/tmxsrc/Property.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/tmxsrc/TileLayer.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/tmxsrc/Tileset.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/tmxsrc/detail/pugixml.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/Player.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/Enemy.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/Coin.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/Menus/MainMenu.cpp.obj" \
-"CMakeFiles/PacmanSFML.dir/src/Menus/GameOverMenu.cpp.obj"
+"CMakeFiles/PacmanSFML.dir/src/ResourceHandler.cpp.obj"
 
 # External object files for target PacmanSFML
 PacmanSFML_EXTERNAL_OBJECTS =
@@ -374,23 +119,6 @@ PacmanSFML_EXTERNAL_OBJECTS =
 PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/main.cpp.obj
 PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/Game.cpp.obj
 PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/ResourceHandler.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/tmxsrc/FreeFuncs.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/tmxsrc/ImageLayer.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/tmxsrc/LayerGroup.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/tmxsrc/Map.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/tmxsrc/miniz.c.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/tmxsrc/Object.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectGroup.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/tmxsrc/ObjectTypes.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/tmxsrc/Property.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/tmxsrc/TileLayer.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/tmxsrc/Tileset.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/tmxsrc/detail/pugixml.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/Player.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/Enemy.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/Coin.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/Menus/MainMenu.cpp.obj
-PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/src/Menus/GameOverMenu.cpp.obj
 PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/build.make
 PacmanSFML.exe: C:/SFML-2.5.1/lib/libsfml-graphics-s-d.a
 PacmanSFML.exe: C:/SFML-2.5.1/lib/libsfml-window-s-d.a
@@ -408,7 +136,7 @@ PacmanSFML.exe: C:/SFML-2.5.1/lib/libFLAC.a
 PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/linklibs.rsp
 PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/objects1.rsp
 PacmanSFML.exe: CMakeFiles/PacmanSFML.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable PacmanSFML.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable PacmanSFML.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PacmanSFML.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -420,6 +148,6 @@ CMakeFiles/PacmanSFML.dir/clean:
 .PHONY : CMakeFiles/PacmanSFML.dir/clean
 
 CMakeFiles/PacmanSFML.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan" "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan" "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug" "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug" "C:\Users\Steven\Documents\University\2023 Github Repos\Year2-PacMan\cmake-build-debug\CMakeFiles\PacmanSFML.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github" "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github" "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\cmake-build-debug" "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\cmake-build-debug" "C:\Users\Steven\OneDrive - UWE Bristol\Github Repo\Year 2\mgic-pacman-22-23-St3v3-github\cmake-build-debug\CMakeFiles\PacmanSFML.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/PacmanSFML.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan
+# Install script for directory: C:/Users/Steven/OneDrive - UWE Bristol/Github Repo/Year 2/mgic-pacman-22-23-St3v3-github
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Steven/OneDrive - UWE Bristol/Github Repo/Year 2/mgic-pacman-22-23-St3v3-github/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
