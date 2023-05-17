@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PacmanSFML"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\SFML-2.5.1\;CMake Files\..\..\..\..\..\..\SFML-2.5.1\lib\;CMake Files\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\;CMake Files\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PacmanSFML">
+				<Option output="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/PacmanSFML.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/include"/>
+					<Add directory="C:/SFML-2.5.1/include"/>
+					<Add directory="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 PacmanSFML"/>
+					<CompileFile command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PacmanSFML/fast">
+				<Option output="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/PacmanSFML.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/include"/>
+					<Add directory="C:/SFML-2.5.1/include"/>
+					<Add directory="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 PacmanSFML/fast"/>
+					<CompileFile command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/x86_64-7.3.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/Coin.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/Coin.h">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/Enemy.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/Enemy.h">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/Game.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/Game.h">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/Menus/GameOverMenu.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/Menus/GameOverMenu.h">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/Menus/MainMenu.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/Menus/MainMenu.h">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/Player.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/Player.h">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/ResourceHandler.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/ResourceHandler.h">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/main.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/FreeFuncs.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/ImageLayer.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/LayerGroup.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/Map.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/Object.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/ObjectGroup.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/ObjectTypes.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/Property.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/TileLayer.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/Tileset.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/detail/pugixml.cpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/detail/pugixml.hpp">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/meson.build">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/miniz.c">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/src/tmxsrc/miniz.h">
+			<Option target="PacmanSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/../../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/../../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/../../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/../../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/../../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Steven/Documents/University/2023 Github Repos/Year2-PacMan/../../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
